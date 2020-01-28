@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 html {
   position: relative;
   min-height: 100%;
@@ -72,18 +75,22 @@ header ul:after {
 }
 
 .function-images {
-}
 
 }
+
 .function-image {
+  display: inline-block;
+  margin: 30px;
 }
 /* ここまでがfunction部分の実装 */
 
 footer {
-  background-color: #000033;
+  background-color: #003366;
+  height: 50px;
 /* footer部分の実装 */
 }
 .content {
   color: #fff;
+  font-size: 7px;
 }
 /* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なの
